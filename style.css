@@ -1,0 +1,111 @@
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.15rem;
+	min-height: 100vh;
+	line-height: 1.3;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	font-family: 'Kaisei Tokumin', serif;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffff;
+	color: #F89817;
+}
+
+.title {
+	margin-left: 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	margin-right: 50px;
+}
+
+nav li {
+	margin-left: 40px;
+}
+
+nav li a {
+	color: #F89817;
+	text-decoration: none;
+}
+
+.products {
+	padding: 80px 0;
+	background-color: #f6f5f5;
+	color: #000000;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.products h2 {
+	color: #000000;
+}
+
+.products h1 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+
+footer {
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-left,
+.footer-right {
+	flex: 1;
+}
+
+.footer-left {
+	text-align: left;
+	color: #F89817;
+}
+
+.footer-right {
+	text-align: right;
+	color: #F89817;
+}
+
+.footer-right a {
+	color: #F89817;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.footer-right a:hover {
+	text-decoration: underline;
+}
