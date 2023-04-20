@@ -26,6 +26,12 @@ contentful.createClient({
 
   });
 
+  var viewMoreBtn = document.getElementById("view-more-btn");
+viewMoreBtn.addEventListener("click", function() {
+  // Add your code to load more content here
+});
+
+
 }).catch(function(error) {
   console.log(error);
 });

@@ -19,7 +19,7 @@ header {
 	font-family: 'Kaisei Tokumin', serif;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #ffffff;
+	background-color: #000000;
 	color: #F89817;
 }
 
@@ -72,9 +72,35 @@ nav li a {
 	margin: 20px;
 }
 
+#view-more-container {
+	text-align: center;
+	margin-top: 50px;
+  }
+  
+  #view-more-btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 20px auto 30px;
+	transition: background-color 0.3s ease;
+  }
+  
+  #view-more-btn:hover {
+	background-color:#ffffff;
+	color: #000000;
+	box-shadow: 0px 0px 15px #000000;
+  }
+  
 
 footer {
-	background-color: #ffffff;
+	background-color: #000000;
 	padding: 20px;
 	text-align: center;
 }
@@ -109,3 +135,4 @@ footer {
 .footer-right a:hover {
 	text-decoration: underline;
 }
+
