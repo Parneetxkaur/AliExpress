@@ -146,6 +146,7 @@ footer {
 .footer-right a:hover {
 	text-decoration: underline;
 }
+ /*details page starts from here*/
  
 .size-menu {
 	display: flex;
@@ -157,7 +158,7 @@ footer {
   .select-size {
 	font-size: 1.2rem;
 	font-weight: bold;
-	margin-right: 30px;
+	margin-right: 10px;
   }
   
   .size-boxes {
